@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+</head>
+
+<body background="./planet-space-Earth-nebula-atmosphere-asteroid-570357-wallhere.com.jpg">
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo center">Logo</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+
+      <!-- Dump Chain data -->
+      <div class="col s12" id="chainData">
+        <div class="collection">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script>
+
+    fetch('https://sgapiv2.certus.one/v1/block/1')
+      .then(response => response.json())
+      .then(data => {
+        console.log(`before fetchy: ${data.block.height}`)
+        let fetchData = data.block.height
+console.log(fetchData)
+      })
+      .catch(error => {
+        console.log(error)
+      })
+
+
+    const renderChainStats = (fetchData) => {
+      document.getElementById('chainData').innerHTML = ''
+      let dataElem = document.createElement('div')
+      dataElem.className = 'collection'
+      dataElem.innerHTML = `
+      <a href="#!" class="collection-item"><span class="badge">${fetchData}</span>Current Block Height</a>
+      <a href="#!" class="collection-item"><span class="new badge">4</span>Alan</a>
+      <a href="#!" class="collection-item">Alan</a>
+      <a href="#!" class="collection-item"><span class="badge">14</span>Alan</a>
+      `
+      //Current blockheight
+
+      document.getElementById('chainData').append(dataElem)
+      // document.getElementById('current').textContent = current
+      // document.getElementById('goal').textContent = goal
+      // document.getElementById('losses').textContent = losses
+      // document.getElementById('wins').textContent = wins
+    }
+    renderChainStats()
+
+
+    // const fetchData = () => {
+      //   fetch('https://sgapiv2.certus.one/v1/block/1')
+      //     .then(response => response.json())
+      //     .then(data => {
+    //       return chainheight = (data.block.height);
+    //     })
+    //     .catch(error => {
+    //       console.log(error)
+    //     })
+    // }
+
+
+  </script>
+
+
+
+</body>
+
+</html>

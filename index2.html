@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div class="PageTemplate__page-template--lVr6S">
+    <div class="SearchAppBar__root--1WI1C">
+      <header class="jss10 jss16 jss1 jss2 jss8 mui-fixed">
+        <div class="jss37 jss39 jss38 SearchAppBar__toolbar--3zQhf">
+          <div><a class="active" aria-current="page" href="/"><img class="SearchAppBar__logoImg--1_8gX"
+                src="/static/media/mintscan_logo.cbe9c10d.svg" alt="mintscan-logo"></a></div>
+          <div class="SearchAppBar__select-wrapper--lW3Hm">
+            <div class="SearchAppBar__net-select-wrapper--j_dSH"><button class="SearchAppBar__select-btn--1hC2v">
+                <div class="SearchAppBar__curr-net-wrapper--OzE8U">
+                  <div class="SearchAppBar__net-icon--287-X SearchAppBar__net0--3JvJQ"></div>cosmoshub-2
+                </div><img class="SearchAppBar__arrow-icon---wDvx" src="/static/media/arrow-down.8142b9d7.svg">
+              </button>
+              <div class="SearchAppBar__select-item-list--1Su0U SearchAppBar__hide--v-aji">
+                <div class="SearchAppBar__select-item--236DB">
+                  <div class="SearchAppBar__net-icon--287-X SearchAppBar__net0--3JvJQ"></div>cosmoshub-2
+                </div>
+                <div class="SearchAppBar__select-item--236DB">
+                  <div class="SearchAppBar__net-icon--287-X SearchAppBar__net1--3K1VG"></div>irishub
+                </div>
+                <div class="SearchAppBar__select-item--236DB">
+                  <div class="SearchAppBar__net-icon--287-X SearchAppBar__net2--33GQ5"></div>kava-testnet-3000
+                </div>
+              </div>
+            </div>
+            <div class="SearchAppBar__search--aZolT">
+              <div class="jss41"><input class="jss51" placeholder="Search by Address, Block Height, TxHash..." type="text"
+                  value=""></div><button class="SearchAppBar__searchBtn--1vngI"><svg class="jss58" focusable="false"
+                  viewBox="0 0 24 24" aria-hidden="true" role="presentation" style="color: rgb(255, 255, 255);">
+                  <path
+                    d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                  </path>
+                  <path fill="none" d="M0 0h24v24H0z"></path>
+                </svg></button>
+            </div><button class="jss73 jss67 jss68 SearchAppBar__menuButton--30U6m" tabindex="0" type="button"><span
+                class="jss72"><svg class="jss58" focusable="false" viewBox="0 0 24 24" aria-hidden="true"
+                  role="presentation">
+                  <path fill="none" d="M0 0h24v24H0z"></path>
+                  <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+                </svg></span><span class="jss193"></span></button>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div class="SubHeader__sub-header--Hvwuw">
+      <div class="jss76 SubHeader__nav-list--1RYHs">
+        <div class="jss77 SubHeader__navi--3knWB"><a class="SubHeader__nav-item--1BTDB SubHeader__curr--1JXtA active"
+            aria-current="page" href="/">
+            <div class="SubHeader__nav-item-svg--3DcEC"></div>
+            <h2 class="SubHeader__nav-item-title--3ul2l">Dashboard</h2>
+          </a><a class="SubHeader__nav-item--1BTDB" href="/validators">
+            <div class="SubHeader__nav-item-svg--3DcEC"></div>
+            <h2 class="SubHeader__nav-item-title--3ul2l">Validators</h2>
+          </a><a class="SubHeader__nav-item--1BTDB" href="/blocks">
+            <div class="SubHeader__nav-item-svg--3DcEC"></div>
+            <h2 class="SubHeader__nav-item-title--3ul2l">Blocks</h2>
+          </a><a class="SubHeader__nav-item--1BTDB" href="/txs">
+            <div class="SubHeader__nav-item-svg--3DcEC"></div>
+            <h2 class="SubHeader__nav-item-title--3ul2l">Transactions</h2>
+          </a><a class="SubHeader__nav-item--1BTDB" href="/proposals">
+            <div class="SubHeader__nav-item-svg--3DcEC"></div>
+            <h2 class="SubHeader__nav-item-title--3ul2l">votings</h2>
+          </a></div>
+      </div>
+    </div>
+    <main>
+      <div class="SearchWrapper__dash-search-wrapper--1mUPv">
+        <div class="Search__search-wrapper--1636Y">
+          <div class="Search__content-wrapper--3dQCB">
+            <div class="Search__title-wrapper--EbkA0">
+              <h1 class="Search__title--3rRAD"><span class="cosmos">CØSMOS</span> EXPLORER</h1>
+              <p class="Search__made-by--1W-KR">by Cosmostation</p>
+            </div>
+            <div class="Search__wrapper--3Pq9Z">
+              <div class="Search__search--3JBua">
+                <div class="jss41"><input class="jss51" placeholder="Search by Address, Block Height, TxHash..."
+                    type="text" value=""></div><button class="Search__searchBtn--ZhBaj"><svg class="jss58"
+                    focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"
+                    style="color: rgb(255, 255, 255);">
+                    <path
+                      d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                    </path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                  </svg></button>
+              </div>
+            </div>
+            <div class="Search__link-wrapper--THUbU">
+              <p>Download Cosmostation Wallet!</p>
+              <div class="Search__link-btn-wrapper--lR-Pi Search__isPc--Zdus-"><a
+                  href="https://play.google.com/store/apps/details?id=wannabit.io.cosmostaion" target="_blank"
+                  class="LinkCard__linkcard-wrapper--chcPa">
+                  <div class="LinkCard__icon--3MAWx"><img src="/static/media/playstore.ecc43161.svg" alt="icon"></div>
+                </a><a href="https://apple.co/2IAM3Xm" target="_blank" class="LinkCard__linkcard-wrapper--chcPa">
+                  <div class="LinkCard__icon--3MAWx"><img src="/static/media/appstore_img.a7119768.svg" alt="icon"></div>
+                </a><a href="https://wallet.cosmostation.io" target="_blank" class="LinkCard__linkcard-wrapper--chcPa">
+                  <div class="LinkCard__icon--3MAWx LinkCard__web--1EWwG"><img src="/static/media/wallet_ic.cbf8e8f5.svg"
+                      alt="icon"><span class="LinkCard__web-title--3e7EJ">Web Wallet</span></div>
+                </a></div>
+            </div>
+          </div>
+        </div>
+        <div class="AdDash__ad-dash-wrapper--1E1P2">
+          <div class="AdDash__content-wrapper--2Y9zH">sponsored :<span class="AdDash__img-wrapper--MaKx9"><img
+                src="/static/media/iov_logo.f43bfd90.svg" alt="iov_logo"></span><span
+              class="AdDash__text-wrapper--19077">Create a peronalized address for your wallet!<a
+                class="AdDash__blue-text--Cxov9" href="https://iov.one/" target="_blank">Special offer!</a></span></div>
+        </div>
+      </div>
+      <div class="MainWrapper__dash-wrapper--2ryuJ">
+        <div class="CardWrapper__card-wrapper--29Z5u">
+          <div class="CardTemplate__card-template--1YqX9">
+            <div class="StatusCard__statuscard-wrapper--3eGwa StatusCard__pointer--32aYz">
+              <div class="StatusCard__title-wrapper--31Fml">
+                <h4 class="StatusCard__title--30QrB">Price</h4>
+                <p class="StatusCard__value--O5lEd">$2.71<span>(coingecko)</span></p>
+              </div>
+              <div class="StatusCard__content-wrapper--3gTSo">
+                <div data-highcharts-chart="0" style="overflow: hidden;">
+                  <div id="highcharts-pb4ri1t-0" dir="ltr" class="highcharts-container "
+                    style="position: relative; overflow: hidden; width: 120px; height: 40px; text-align: left; line-height: normal; z-index: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                    <svg version="1.1" class="highcharts-root"
+                      style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Arial, Helvetica, sans-serif;font-size:12px;"
+                      xmlns="http://www.w3.org/2000/svg" width="120" height="40" viewBox="0 0 120 40">
+                      <desc>Created with Highcharts 7.2.0</desc>
+                      <defs>
+                        <clipPath id="highcharts-pb4ri1t-1-">
+                          <rect x="0" y="0" width="120" height="40" fill="none"></rect>
+                        </clipPath>
+                        <clipPath id="highcharts-pb4ri1t-3-">
+                          <rect x="0" y="0" width="120" height="40" fill="none"></rect>
+                        </clipPath>
+                        <linearGradient x1="0" y1="0" x2="0" y2="1" id="highcharts-pb4ri1t-4">
+                          <stop offset="0" stop-color="rgb(156,108,255)" stop-opacity="0.3"></stop>
+                          <stop offset="1" stop-color="rgb(156,108,255)" stop-opacity="0"></stop>
+                        </linearGradient>
+                      </defs>
+                      <rect fill="#ffffff" class="highcharts-background" x="0" y="0" width="120" height="40" rx="0"
+                        ry="0"></rect>
+                      <rect fill="none" class="highcharts-plot-background" x="0" y="0" width="120" height="40"></rect>
+                      <rect fill="none" class="highcharts-plot-border" data-z-index="1" x="0" y="0" width="120"
+                        height="40"></rect>
+                      <g class="highcharts-grid highcharts-yaxis-grid" data-z-index="1">
+                        <path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line"
+                          d="M 0 40.5 L 120 40.5" opacity="1"></path>
+                        <path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line"
+                          d="M 0 -0.5 L 120 -0.5" opacity="1"></path>
+                      </g>
+                      <g class="highcharts-axis highcharts-yaxis" data-z-index="2"><text x="-51.40625" data-z-index="7"
+                          text-anchor="middle" transform="translate(0,0) rotate(270 -51.40625 20)"
+                          class="highcharts-axis-title" style="color:#666666;fill:#666666;" y="20">
+                          <tspan>Values</tspan>
+                        </text>
+                        <path fill="none" class="highcharts-axis-line" data-z-index="7" d="M 0 0 L 0 40"></path>
+                      </g>
+                      <g class="highcharts-series-group" data-z-index="3">
+                        <g data-z-index="0.1" class="highcharts-series highcharts-series-0 highcharts-areaspline-series "
+                          transform="translate(0,0) scale(1 1)" clip-path="url(#highcharts-pb4ri1t-3-)">
+                          <path fill="url(#highcharts-pb4ri1t-4)"
+                            d="M 1.1764705882353 14.999999999999972 C 1.1764705882353 14.999999999999972 7.593582887700721 29.999999999999943 11.871657754011 29.999999999999943 C 16.149732620321 29.999999999999943 18.288770053475996 4.999999999999915 22.566844919786 4.999999999999915 C 26.844919786096398 4.999999999999915 28.9839572192516 10.000000000000057 33.262032085562 10.000000000000057 C 37.540106951872 10.000000000000057 39.679144385027 0 43.957219251337 0 C 48.235294117647 0 50.374331550802005 0 54.652406417112 0 C 58.930481283422395 0 61.06951871657759 4.999999999999915 65.347593582888 4.999999999999915 C 69.625668449198 4.999999999999915 71.764705882353 4.999999999999915 76.042780748663 4.999999999999915 C 80.3208556149734 4.999999999999915 82.4598930481286 7.999999999999956 86.737967914439 10.000000000000057 C 91.016042780749 11.999999999999979 93.155080213904 11.000000000000187 97.433155080214 14.999999999999972 C 101.7112299465244 19.000000000000142 103.8502673796796 24.999999999998533 108.12834224599 29.999999999999943 C 112.406417112298 34.99999999999854 118.82352941176 40 118.82352941176 40 L 118.82352941176 40 C 118.82352941176 40 112.406417112298 40 108.12834224599 40 C 103.8502673796796 40 101.7112299465244 40 97.433155080214 40 C 93.155080213904 40 91.016042780749 40 86.737967914439 40 C 82.4598930481286 40 80.3208556149734 40 76.042780748663 40 C 71.764705882353 40 69.625668449198 40 65.347593582888 40 C 61.06951871657759 40 58.930481283422395 40 54.652406417112 40 C 50.374331550802005 40 48.235294117647 40 43.957219251337 40 C 39.679144385027 40 37.540106951872 40 33.262032085562 40 C 28.9839572192516 40 26.844919786096398 40 22.566844919786 40 C 18.288770053475996 40 16.149732620321 40 11.871657754011 40 C 7.593582887700721 40 1.1764705882353 40 1.1764705882353 40"
+                            class="highcharts-area" data-z-index="0"></path>
+                          <path fill="none"
+                            d="M 1.1764705882353 14.999999999999972 C 1.1764705882353 14.999999999999972 7.593582887700721 29.999999999999943 11.871657754011 29.999999999999943 C 16.149732620321 29.999999999999943 18.288770053475996 4.999999999999915 22.566844919786 4.999999999999915 C 26.844919786096398 4.999999999999915 28.9839572192516 10.000000000000057 33.262032085562 10.000000000000057 C 37.540106951872 10.000000000000057 39.679144385027 0 43.957219251337 0 C 48.235294117647 0 50.374331550802005 0 54.652406417112 0 C 58.930481283422395 0 61.06951871657759 4.999999999999915 65.347593582888 4.999999999999915 C 69.625668449198 4.999999999999915 71.764705882353 4.999999999999915 76.042780748663 4.999999999999915 C 80.3208556149734 4.999999999999915 82.4598930481286 7.999999999999956 86.737967914439 10.000000000000057 C 91.016042780749 11.999999999999979 93.155080213904 11.000000000000187 97.433155080214 14.999999999999972 C 101.7112299465244 19.000000000000142 103.8502673796796 24.999999999998533 108.12834224599 29.999999999999943 C 112.406417112298 34.99999999999854 118.82352941176 40 118.82352941176 40"
+                            class="highcharts-graph" data-z-index="1" stroke="#9c6cff" stroke-width="2"
+                            stroke-linejoin="round" stroke-linecap="round"></path>
+                          <path fill="none"
+                            d="M -8.8235294117647 14.999999999999972 L 1.1764705882353 14.999999999999972 C 1.1764705882353 14.999999999999972 7.593582887700721 29.999999999999943 11.871657754011 29.999999999999943 C 16.149732620321 29.999999999999943 18.288770053475996 4.999999999999915 22.566844919786 4.999999999999915 C 26.844919786096398 4.999999999999915 28.9839572192516 10.000000000000057 33.262032085562 10.000000000000057 C 37.540106951872 10.000000000000057 39.679144385027 0 43.957219251337 0 C 48.235294117647 0 50.374331550802005 0 54.652406417112 0 C 58.930481283422395 0 61.06951871657759 4.999999999999915 65.347593582888 4.999999999999915 C 69.625668449198 4.999999999999915 71.764705882353 4.999999999999915 76.042780748663 4.999999999999915 C 80.3208556149734 4.999999999999915 82.4598930481286 7.999999999999956 86.737967914439 10.000000000000057 C 91.016042780749 11.999999999999979 93.155080213904 11.000000000000187 97.433155080214 14.999999999999972 C 101.7112299465244 19.000000000000142 103.8502673796796 24.999999999998533 108.12834224599 29.999999999999943 C 112.406417112298 34.99999999999854 118.82352941176 40 118.82352941176 40 L 128.82352941176 40"
+                            visibility="visible" data-z-index="2" class="highcharts-tracker-line" stroke-linejoin="round"
+                            stroke="rgba(192,192,192,0.0001)" stroke-width="22"></path>
+                        </g>
+                        <g data-z-index="0.1"
+                          class="highcharts-markers highcharts-series-0 highcharts-areaspline-series  highcharts-tracker"
+                          transform="translate(0,0) scale(1 1)"></g>
+                      </g><text x="60" text-anchor="middle" class="highcharts-title" data-z-index="4"
+                        style="color:#333333;font-size:18px;fill:#333333;" y="24"></text><text x="60" text-anchor="middle"
+                        class="highcharts-subtitle" data-z-index="4" style="color:#666666;fill:#666666;"
+                        y="24"></text><text x="10" text-anchor="start" class="highcharts-caption" data-z-index="4"
+                        style="color:#666666;fill:#666666;" y="37"></text>
+                      <g class="highcharts-axis-labels highcharts-yaxis-labels" data-z-index="7"><text x="-15"
+                          style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end"
+                          transform="translate(0,0)" y="44" opacity="1">2.7</text><text x="-15"
+                          style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end"
+                          transform="translate(0,0)" y="4" opacity="1">2.78</text></g>
+                    </svg></div>
+                </div>
+                <div class="StatusCard__value--O5lEd"><img src="/static/media/down_rd.a5c19dac.svg" alt="down">-1.32%
+                  (24h)</div>
+              </div>
+            </div>
+          </div>
+          <div class="CardTemplate__card-template--1YqX9">
+            <div class="StatusCard__statuscard-wrapper--3eGwa">
+              <div class="StatusCard__title-wrapper--31Fml">
+                <h4 class="StatusCard__title--30QrB">Height</h4>
+                <p class="StatusCard__value--O5lEd">2,250,313</p>
+              </div>
+              <div class="StatusCard__content-wrapper--3gTSo">
+                <div></div>
+                <div class="StatusCard__value--O5lEd">Last 8s ago</div>
+              </div>
+            </div>
+          </div>
+          <div class="CardTemplate__card-template--1YqX9">
+            <div class="StatusCard__statuscard-wrapper--3eGwa">
+              <div class="StatusCard__title-wrapper--31Fml">
+                <h4 class="StatusCard__title--30QrB">Bonded</h4>
+                <p class="StatusCard__value--O5lEd">73.76%<span>181 M / 246 M</span></p>
+              </div>
+              <div class="StatusCard__content-wrapper--3gTSo">
+                <div data-highcharts-chart="1" style="overflow: hidden;">
+                  <div id="highcharts-pb4ri1t-5" dir="ltr" class="highcharts-container "
+                    style="position: relative; overflow: hidden; width: 120px; height: 40px; text-align: left; line-height: normal; z-index: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                    <svg version="1.1" class="highcharts-root"
+                      style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Arial, Helvetica, sans-serif;font-size:12px;"
+                      xmlns="http://www.w3.org/2000/svg" width="120" height="40" viewBox="0 0 120 40">
+                      <desc>Created with Highcharts 7.2.0</desc>
+                      <defs>
+                        <clipPath id="highcharts-pb4ri1t-6-">
+                          <rect x="0" y="0" width="120" height="40" fill="none"></rect>
+                        </clipPath>
+                        <clipPath id="highcharts-pb4ri1t-8-">
+                          <rect x="0" y="0" width="120" height="40" fill="none"></rect>
+                        </clipPath>
+                        <linearGradient x1="0" y1="0" x2="0" y2="1" id="highcharts-pb4ri1t-9">
+                          <stop offset="0" stop-color="rgb(156,108,255)" stop-opacity="0.3"></stop>
+                          <stop offset="1" stop-color="rgb(156,108,255)" stop-opacity="0"></stop>
+                        </linearGradient>
+                      </defs>
+                      <rect fill="#ffffff" class="highcharts-background" x="0" y="0" width="120" height="40" rx="0"
+                        ry="0"></rect>
+                      <rect fill="none" class="highcharts-plot-background" x="0" y="0" width="120" height="40"></rect>
+                      <rect fill="none" class="highcharts-plot-border" data-z-index="1" x="0" y="0" width="120"
+                        height="40"></rect>
+                      <g class="highcharts-grid highcharts-yaxis-grid" data-z-index="1">
+                        <path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line"
+                          d="M 0 40.5 L 120 40.5" opacity="1"></path>
+                        <path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line"
+                          d="M 0 -0.5 L 120 -0.5" opacity="1"></path>
+                      </g>
+                      <g class="highcharts-axis highcharts-yaxis" data-z-index="2"><text x="-51.921875" data-z-index="7"
+                          text-anchor="middle" transform="translate(0,0) rotate(270 -51.921875 20)"
+                          class="highcharts-axis-title" style="color:#666666;fill:#666666;" y="20">
+                          <tspan>Values</tspan>
+                        </text>
+                        <path fill="none" class="highcharts-axis-line" data-z-index="7" d="M 0 0 L 0 40"></path>
+                      </g>
+                      <g class="highcharts-series-group" data-z-index="3">
+                        <g data-z-index="0.1" class="highcharts-series highcharts-series-0 highcharts-areaspline-series "
+                          transform="translate(0,0) scale(1 1)" clip-path="url(#highcharts-pb4ri1t-8-)">
+                          <path fill="url(#highcharts-pb4ri1t-9)"
+                            d="M 1.1764705882353 22.27463764333333 C 1.1764705882353 22.27463764333333 7.593582887700721 17.8713399325 11.871657754011 17.8713399325 C 16.149732620321 17.8713399325 18.288770053475996 18.24127326483335 22.566844919786 18.6018270975 C 26.844919786096398 18.96238093016668 28.9839572192516 19.674109095833334 33.262032085562 19.674109095833334 C 37.540106951872 19.674109095833334 39.679144385027 18.164733433333332 43.957219251337 17.714937131666666 C 48.235294117647 17.26514083 50.374331550802005 17.47328135016666 54.652406417112 17.26514083 C 58.930481283422395 17.05700030983332 61.06951871657759 16.67423453083333 65.347593582888 16.67423453083333 C 69.625668449198 16.67423453083333 71.764705882353 16.952542035833332 76.042780748663 16.952542035833332 C 80.3208556149734 16.952542035833332 82.4598930481286 4.769740167499997 86.737967914439 4.27559512083333 C 91.016042780749 3.7814500741666635 93.155080213904 3.7814500741666635 97.433155080214 3.7814500741666635 C 101.7112299465244 3.7814500741666635 103.8502673796796 3.9137969874999996 108.12834224599 3.9137969874999996 C 112.406417112298 3.9137969874999996 118.82352941176 2.66355478083333 118.82352941176 2.66355478083333 L 118.82352941176 40 C 118.82352941176 40 112.406417112298 40 108.12834224599 40 C 103.8502673796796 40 101.7112299465244 40 97.433155080214 40 C 93.155080213904 40 91.016042780749 40 86.737967914439 40 C 82.4598930481286 40 80.3208556149734 40 76.042780748663 40 C 71.764705882353 40 69.625668449198 40 65.347593582888 40 C 61.06951871657759 40 58.930481283422395 40 54.652406417112 40 C 50.374331550802005 40 48.235294117647 40 43.957219251337 40 C 39.679144385027 40 37.540106951872 40 33.262032085562 40 C 28.9839572192516 40 26.844919786096398 40 22.566844919786 40 C 18.288770053475996 40 16.149732620321 40 11.871657754011 40 C 7.593582887700721 40 1.1764705882353 40 1.1764705882353 40"
+                            class="highcharts-area" data-z-index="0"></path>
+                          <path fill="none"
+                            d="M 1.1764705882353 22.27463764333333 C 1.1764705882353 22.27463764333333 7.593582887700721 17.8713399325 11.871657754011 17.8713399325 C 16.149732620321 17.8713399325 18.288770053475996 18.24127326483335 22.566844919786 18.6018270975 C 26.844919786096398 18.96238093016668 28.9839572192516 19.674109095833334 33.262032085562 19.674109095833334 C 37.540106951872 19.674109095833334 39.679144385027 18.164733433333332 43.957219251337 17.714937131666666 C 48.235294117647 17.26514083 50.374331550802005 17.47328135016666 54.652406417112 17.26514083 C 58.930481283422395 17.05700030983332 61.06951871657759 16.67423453083333 65.347593582888 16.67423453083333 C 69.625668449198 16.67423453083333 71.764705882353 16.952542035833332 76.042780748663 16.952542035833332 C 80.3208556149734 16.952542035833332 82.4598930481286 4.769740167499997 86.737967914439 4.27559512083333 C 91.016042780749 3.7814500741666635 93.155080213904 3.7814500741666635 97.433155080214 3.7814500741666635 C 101.7112299465244 3.7814500741666635 103.8502673796796 3.9137969874999996 108.12834224599 3.9137969874999996 C 112.406417112298 3.9137969874999996 118.82352941176 2.66355478083333 118.82352941176 2.66355478083333"
+                            class="highcharts-graph" data-z-index="1" stroke="#9c6cff" stroke-width="2"
+                            stroke-linejoin="round" stroke-linecap="round"></path>
+                          <path fill="none"
+                            d="M -8.8235294117647 22.27463764333333 L 1.1764705882353 22.27463764333333 C 1.1764705882353 22.27463764333333 7.593582887700721 17.8713399325 11.871657754011 17.8713399325 C 16.149732620321 17.8713399325 18.288770053475996 18.24127326483335 22.566844919786 18.6018270975 C 26.844919786096398 18.96238093016668 28.9839572192516 19.674109095833334 33.262032085562 19.674109095833334 C 37.540106951872 19.674109095833334 39.679144385027 18.164733433333332 43.957219251337 17.714937131666666 C 48.235294117647 17.26514083 50.374331550802005 17.47328135016666 54.652406417112 17.26514083 C 58.930481283422395 17.05700030983332 61.06951871657759 16.67423453083333 65.347593582888 16.67423453083333 C 69.625668449198 16.67423453083333 71.764705882353 16.952542035833332 76.042780748663 16.952542035833332 C 80.3208556149734 16.952542035833332 82.4598930481286 4.769740167499997 86.737967914439 4.27559512083333 C 91.016042780749 3.7814500741666635 93.155080213904 3.7814500741666635 97.433155080214 3.7814500741666635 C 101.7112299465244 3.7814500741666635 103.8502673796796 3.9137969874999996 108.12834224599 3.9137969874999996 C 112.406417112298 3.9137969874999996 118.82352941176 2.66355478083333 118.82352941176 2.66355478083333 L 128.82352941176 2.66355478083333"
+                            visibility="visible" data-z-index="2" class="highcharts-tracker-line" stroke-linejoin="round"
+                            stroke="rgba(192,192,192,0.0001)" stroke-width="22"></path>
+                        </g>
+                        <g data-z-index="0.1"
+                          class="highcharts-markers highcharts-series-0 highcharts-areaspline-series  highcharts-tracker"
+                          transform="translate(0,0) scale(1 1)"></g>
+                      </g><text x="60" text-anchor="middle" class="highcharts-title" data-z-index="4"
+                        style="color:#333333;font-size:18px;fill:#333333;" y="24"></text><text x="60" text-anchor="middle"
+                        class="highcharts-subtitle" data-z-index="4" style="color:#666666;fill:#666666;"
+                        y="24"></text><text x="10" text-anchor="start" class="highcharts-caption" data-z-index="4"
+                        style="color:#666666;fill:#666666;" y="37"></text>
+                      <g class="highcharts-axis-labels highcharts-yaxis-labels" data-z-index="7"><text x="-15"
+                          style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end"
+                          transform="translate(0,0)" y="44" opacity="1">
+                          <tspan>18…</tspan>
+                          <title>181 416G</title>
+                        </text><text x="-15" style="color:#666666;cursor:default;font-size:11px;fill:#666666;"
+                          text-anchor="end" transform="translate(0,0)" y="4" opacity="1">
+                          <tspan>18…</tspan>
+                          <title>181 464G</title>
+                        </text></g>
+                    </svg></div>
+                </div>
+                <div class="StatusCard__value--O5lEd"><img src="/static/media/up_gr.9d8be12f.svg" alt="up">0.02% (24h)
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="CardTemplate__card-template--1YqX9">
+            <div class="StatusCard__statuscard-wrapper--3eGwa">
+              <div class="StatusCard__title-wrapper--31Fml">
+                <h4 class="StatusCard__title--30QrB">Inflation</h4>
+                <p class="StatusCard__value--O5lEd">7.43%</p>
+              </div>
+              <div class="StatusCard__content-wrapper--3gTSo">
+                <div></div>
+                <div class="StatusCard__value--O5lEd">Year</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="TablesWrapper__tables-wrapper--aNzJS">
+          <div class="TableWrapper__table-content-wrapper--sqF3r">
+            <div class="CardTemplate__card-template--1YqX9">
+              <div class="TableWrapper__title-wrapper--ERu_H">
+                <h2 class="TableWrapper__title--2qmhZ">Blocks</h2><a class="TableWrapper__btn--3ttDn" href="/blocks">Show
+                  More</a>
+              </div>
+              <div class="BlocksTable__table-wrapper--1eKnL">
+                <table class="jss173 BlocksTable__table--3mDq3">
+                  <thead class="jss174">
+                    <tr class="jss175 jss178">
+                      <th class="jss180 jss181 BlocksTable__tableHeaderCell--2qs-5" scope="col">Height</th>
+                      <th class="jss180 jss181 BlocksTable__tableHeaderCell--2qs-5" scope="col">Proposer</th>
+                      <th class="jss180 jss181 jss190 BlocksTable__tableHeaderCell--2qs-5" scope="col">Txs</th>
+                      <th class="jss180 jss181 jss190 BlocksTable__tableHeaderCell--2qs-5" scope="col">Time</th>
+                    </tr>
+                  </thead>
+                  <tbody class="jss192">
+                    <tr class="jss175 jss177 BlocksTableRow__tableRow--14I4Y">
+                      <th class="jss180 jss182 BlocksTableRow__tablePointerCell--3AbNS" scope="row"><a
+                          href="/blocks/2250312">2250312</a></th>
+                      <td class="jss180 jss182 BlocksTableRow__tablePointerCell--3AbNS"><a
+                          href="/validators/cosmosvaloper132juzk0gdmwuxvx4phug7m3ymyatxlh9734g4w">P2P.ORG - P2P
+                          Validator</a></td>
+                      <td class="jss180 jss182 jss190 BlocksTableRow__tableCell--2e7KH">0</td>
+                      <td class="jss180 jss182 jss190 BlocksTableRow__tableCell--2e7KH">
+                        <p>2019-10-19 21:47:22</p>
+                        <p class="BlocksTableRow__sub-value--rELDA">(15s ago)</p>
+                      </td>
+                    </tr>
+                    <tr class="jss175 jss177 BlocksTableRow__tableRow--14I4Y">
+                      <th class="jss180 jss182 BlocksTableRow__tablePointerCell--3AbNS" scope="row"><a
+                          href="/blocks/2250311">2250311</a></th>
+                      <td class="jss180 jss182 BlocksTableRow__tablePointerCell--3AbNS"><a
+                          href="/validators/cosmosvaloper14k4pzckkre6uxxyd2lnhnpp8sngys9m6hl6ml7">Polychain Labs</a></td>
+                      <td class="jss180 jss182 jss190 BlocksTableRow__tableCell--2e7KH">0</td>
+                      <td class="jss180 jss182 jss190 BlocksTableRow__tableCell--2e7KH">
+                        <p>2019-10-19 21:47:15</p>
+                        <p class="BlocksTableRow__sub-value--rELDA">(22s ago)</p>
+                      </td>
+                    </tr>
+                    <tr class="jss175 jss177 BlocksTableRow__tableRow--14I4Y">
+                      <th class="jss180 jss182 BlocksTableRow__tablePointerCell--3AbNS" scope="row"><a
+                          href="/blocks/2250310">2250310</a></th>
+                      <td class="jss180 jss182 BlocksTableRow__tablePointerCell--3AbNS"><a
+                          href="/validators/cosmosvaloper1te8nxpc2myjfrhaty0dnzdhs5ahdh5agzuym9v">CoinoneNode</a></td>
+                      <td class="jss180 jss182 jss190 BlocksTableRow__tableCell--2e7KH">0</td>
+                      <td class="jss180 jss182 jss190 BlocksTableRow__tableCell--2e7KH">
+                        <p>2019-10-19 21:47:08</p>
+                        <p class="BlocksTableRow__sub-value--rELDA">(29s ago)</p>
+                      </td>
+                    </tr>
+                    <tr class="jss175 jss177 BlocksTableRow__tableRow--14I4Y">
+                      <th class="jss180 jss182 BlocksTableRow__tablePointerCell--3AbNS" scope="row"><a
+                          href="/blocks/2250309">2250309</a></th>
+                      <td class="jss180 jss182 BlocksTableRow__tablePointerCell--3AbNS"><a
+                          href="/validators/cosmosvaloper1x8rr4hcf54nz6hfckyy2n05sxss54h8wz9puzg">cosmosgbt</a></td>
+                      <td class="jss180 jss182 jss190 BlocksTableRow__tableCell--2e7KH">0</td>
+                      <td class="jss180 jss182 jss190 BlocksTableRow__tableCell--2e7KH">
+                        <p>2019-10-19 21:47:02</p>
+                        <p class="BlocksTableRow__sub-value--rELDA">(36s ago)</p>
+                      </td>
+                    </tr>
+                    <tr class="jss175 jss177 BlocksTableRow__tableRow--14I4Y">
+                      <th class="jss180 jss182 BlocksTableRow__tablePointerCell--3AbNS" scope="row"><a
+                          href="/blocks/2250308">2250308</a></th>
+                      <td class="jss180 jss182 BlocksTableRow__tablePointerCell--3AbNS"><a
+                          href="/validators/cosmosvaloper14l0fp639yudfl46zauvv8rkzjgd4u0zk2aseys">ATEAM</a></td>
+                      <td class="jss180 jss182 jss190 BlocksTableRow__tableCell--2e7KH">0</td>
+                      <td class="jss180 jss182 jss190 BlocksTableRow__tableCell--2e7KH">
+                        <p>2019-10-19 21:46:55</p>
+                        <p class="BlocksTableRow__sub-value--rELDA">(42s ago)</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="TableWrapper__table-content-wrapper--sqF3r">
+            <div class="CardTemplate__card-template--1YqX9">
+              <div class="TableWrapper__title-wrapper--ERu_H">
+                <h2 class="TableWrapper__title--2qmhZ">Transactions</h2><a class="TableWrapper__btn--3ttDn"
+                  href="/txs">Show More</a>
+              </div>
+              <div class="TxsTable__table-wrapper--1xmHG">
+                <table class="jss173 TxsTable__table--1RRHO">
+                  <thead class="jss174">
+                    <tr class="jss175 jss178">
+                      <th class="jss180 jss181 TxsTable__tableHeaderCell--1ddHd" scope="col">Height</th>
+                      <th class="jss180 jss181 TxsTable__tableHeaderCell--1ddHd" scope="col">Tx Hash</th>
+                      <th class="jss180 jss181 TxsTable__tableHeaderCell--1ddHd" scope="col">Result</th>
+                      <th class="jss180 jss181 jss190 TxsTable__tableHeaderCell--1ddHd" scope="col">Time</th>
+                    </tr>
+                  </thead>
+                  <tbody class="jss192">
+                    <tr class="jss175 jss177 TxsTableRow__tableRow--G-d9y">
+                      <th class="jss180 jss182 TxsTableRow__tablePointerCell--1twKA" scope="row"><a
+                          href="/blocks/2250283">2250283</a></th>
+                      <td class="jss180 jss182 TxsTableRow__tablePointerCell--1twKA"><a
+                          href="/txs/596E5DEC82DF0B98FA2513D3D3CE651B6C53913023FFB549BC23F1B937E0496D">596E5D ...
+                          37E0496D</a></td>
+                      <td class="jss180 jss182 TxsTableRow__tableCell--37fa4">
+                        <div class="TxsTableRow__status-wrapper--1a5ux"><img src="/static/media/success_ic.0a6ab4da.svg"
+                            alt="success">Success</div>
+                      </td>
+                      <td class="jss180 jss182 jss190 TxsTableRow__tableCell--37fa4">
+                        <p>2019-10-19 21:44:03</p>
+                        <p class="TxsTableRow__sub-value--2lOPv">(49s ago)</p>
+                      </td>
+                    </tr>
+                    <tr class="jss175 jss177 TxsTableRow__tableRow--G-d9y">
+                      <th class="jss180 jss182 TxsTableRow__tablePointerCell--1twKA" scope="row"><a
+                          href="/blocks/2250272">2250272</a></th>
+                      <td class="jss180 jss182 TxsTableRow__tablePointerCell--1twKA"><a
+                          href="/txs/E421B261FA6E2C597C1203A7FDFE80163F6DEC6E743C5BFB5DB20D1B6E401AE8">E421B2 ...
+                          6E401AE8</a></td>
+                      <td class="jss180 jss182 TxsTableRow__tableCell--37fa4">
+                        <div class="TxsTableRow__status-wrapper--1a5ux"><img src="/static/media/success_ic.0a6ab4da.svg"
+                            alt="success">Success</div>
+                      </td>
+                      <td class="jss180 jss182 jss190 TxsTableRow__tableCell--37fa4">
+                        <p>2019-10-19 21:42:45</p>
+                        <p class="TxsTableRow__sub-value--2lOPv">(2m ago)</p>
+                      </td>
+                    </tr>
+                    <tr class="jss175 jss177 TxsTableRow__tableRow--G-d9y">
+                      <th class="jss180 jss182 TxsTableRow__tablePointerCell--1twKA" scope="row"><a
+                          href="/blocks/2250261">2250261</a></th>
+                      <td class="jss180 jss182 TxsTableRow__tablePointerCell--1twKA"><a
+                          href="/txs/B34749DA999C6FE07A9831AD25FAA08DB37D055EA394706E7DFDF877A0BCA684">B34749 ...
+                          A0BCA684</a></td>
+                      <td class="jss180 jss182 TxsTableRow__tableCell--37fa4">
+                        <div class="TxsTableRow__status-wrapper--1a5ux"><img src="/static/media/success_ic.0a6ab4da.svg"
+                            alt="success">Success</div>
+                      </td>
+                      <td class="jss180 jss182 jss190 TxsTableRow__tableCell--37fa4">
+                        <p>2019-10-19 21:41:29</p>
+                        <p class="TxsTableRow__sub-value--2lOPv">(3m ago)</p>
+                      </td>
+                    </tr>
+                    <tr class="jss175 jss177 TxsTableRow__tableRow--G-d9y">
+                      <th class="jss180 jss182 TxsTableRow__tablePointerCell--1twKA" scope="row"><a
+                          href="/blocks/2250251">2250251</a></th>
+                      <td class="jss180 jss182 TxsTableRow__tablePointerCell--1twKA"><a
+                          href="/txs/6E98F8F1A27C4C57E6A1250BBE0411BA5C7C8BDCC1B84FBF29DA317481EFD297">6E98F8 ...
+                          81EFD297</a></td>
+                      <td class="jss180 jss182 TxsTableRow__tableCell--37fa4">
+                        <div class="TxsTableRow__status-wrapper--1a5ux"><img src="/static/media/success_ic.0a6ab4da.svg"
+                            alt="success">Success</div>
+                      </td>
+                      <td class="jss180 jss182 jss190 TxsTableRow__tableCell--37fa4">
+                        <p>2019-10-19 21:40:21</p>
+                        <p class="TxsTableRow__sub-value--2lOPv">(4m ago)</p>
+                      </td>
+                    </tr>
+                    <tr class="jss175 jss177 TxsTableRow__tableRow--G-d9y">
+                      <th class="jss180 jss182 TxsTableRow__tablePointerCell--1twKA" scope="row"><a
+                          href="/blocks/2250239">2250239</a></th>
+                      <td class="jss180 jss182 TxsTableRow__tablePointerCell--1twKA"><a
+                          href="/txs/98FA638FCE851DD5006D346B4E44B1D3666AC7543799C3BB7216A9150F50720C">98FA63 ...
+                          0F50720C</a></td>
+                      <td class="jss180 jss182 TxsTableRow__tableCell--37fa4">
+                        <div class="TxsTableRow__status-wrapper--1a5ux"><img src="/static/media/fail_ic.daa726c3.svg"
+                            alt="fail">Fail</div>
+                      </td>
+                      <td class="jss180 jss182 jss190 TxsTableRow__tableCell--37fa4">
+                        <p>2019-10-19 21:38:57</p>
+                        <p class="TxsTableRow__sub-value--2lOPv">(5m ago)</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="FooterWrapper__footer-wrapper--2lsis">
+      <footer class="Footer__footer--2gHcl">
+        <div class="Footer__footer-left--Q_CJZ"><a><img src="/static/media/footer_logo.68decb03.svg"
+              alt="cosmostation_logo"></a>
+          <div class="Footer__wallet-link-wrapper--2IWAv">
+            <p class="Footer__title--1XLdm">Download Cosmostation Wallet!</p>
+            <div class="Footer__btn-wrapper--2c98d"><a
+                href="https://play.google.com/store/apps/details?id=wannabit.io.cosmostaion" target="_blank">
+                <div class="Footer__wallet-link-btn--1WJRw"><img src="/static/media/playstore.ecc43161.svg"
+                    alt="playstore"></div>
+              </a><a href="https://apple.co/2IAM3Xm" target="_blank">
+                <div class="Footer__wallet-link-btn--1WJRw"><img src="/static/media/appstore_img.a7119768.svg"
+                    alt="appstore"></div>
+              </a><a href="https://wallet.cosmostation.io" target="_blank">
+                <div class="Footer__wallet-link-btn--1WJRw Footer__web--1cpIf"><img class="Footer__web-icon--1RirO"
+                    src="/static/media/wallet_ic.cbf8e8f5.svg" alt="webwallet"><span class="Footer__web-title--2RH8m">Web
+                    Wallet</span></div>
+              </a></div>
+          </div>
+        </div>
+        <div class="Footer__footer-right--1R2Lw">
+          <ul class="Footer__social--17ORd">
+            <li><a rel="noopener noreferrer" href="https://github.com/cosmostation" id="github" title="Github"
+                target="_blank"><img src="/static/media/github_btn.d9792313.svg" alt="github"></a></li>
+            <li><a rel="noopener noreferrer" href="https://medium.com/cosmostation" id="medium" title="Medium"
+                target="_blank"><img src="/static/media/medium_btn.50002bfa.svg" alt="medium"></a></li>
+            <li><a rel="noopener noreferrer" href="https://t.me/cosmostation" id="telegram" title="Telegram"
+                target="_blank"><img src="/static/media/telegram_btn.a7b512c0.svg" alt="telegram"></a></li>
+            <li><a rel="noopener noreferrer" href="mailto:support@cosmostation.io" id="mail" title="Mail"
+                target="_blank"><img src="/static/media/mail_btn.b6b4d2cd.svg" alt="email"></a></li>
+          </ul>
+          <div class="Footer__rights--dVmWy"><a><img src="/static/media/cosmostation_footer.85af0a5d.svg"></a>
+            <div class="Footer__footer-copyright--1_6Eh">© COSMOSTATION 2019</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
